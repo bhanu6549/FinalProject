@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8080
 ADD target/Finalproject.war Finalproject.war
-ENTRYPOINT ["java","-war","/DockerDemo.war"]
+ENTRYPOINT ["java","-war","/Finalproject.war"]
